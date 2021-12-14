@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#4B89BF</color>
+    <color name="colorAccent">#325C80</color>
+    <color name="amarillo">#FDCC1A</color>
+    <color name="gris">#757575</color>
+    <color name="rojo">#D32F27</color>
+    <color name="casi_negro">#151515</color>
+    <color name="negro" >#000000</color>
+    <color name="grisdos">#282727</color>
+    </resources>

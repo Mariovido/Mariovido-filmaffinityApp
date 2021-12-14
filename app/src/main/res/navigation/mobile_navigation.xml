@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_cartelera">
+
+    <fragment
+        android:id="@+id/navigation_cartelera"
+        android:name="es.upv.etsit.aatt.paco.trabajoaatt.ui.cartelera.CarteleraFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_cartelera" />
+
+    <fragment
+        android:id="@+id/navigation_filmoteca"
+        android:name="es.upv.etsit.aatt.paco.trabajoaatt.ui.filmoteca.FilmotecaFragment"
+        android:label="Filmoteca"
+
+        tools:layout="@layout/fragment_filmoteca" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="es.upv.etsit.aatt.paco.trabajoaatt.ui.busqueda.BusquedaFragment"
+        android:label="Busqueda"
+        tools:layout="@layout/fragment_search" />
+</navigation>

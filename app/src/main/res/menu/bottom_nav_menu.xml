@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_cartelera"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Cartelera" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Buscar" />
+
+    <item
+        android:id="@+id/navigation_filmoteca"
+        android:background="@color/amarillo"
+        android:icon="@drawable/ic_local_movies_black_24dp"
+        android:title="Filmoteca" />
+
+
+
+
+</menu>
